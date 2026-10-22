@@ -1,11 +1,12 @@
 # Synapse: Edge AI for Personalized and Connected Vehicles
 
-**Team Flint** | Python · OpenCV · scikit-learn · ONNX Runtime · FastAPI
+**Tata Technologies InnoVent Hackathon** | **Team Flint** (solo entry) | Python · OpenCV · scikit-learn · ONNX Runtime · FastAPI
 
-Synapse is a working prototype of a car that recognises its driver, adapts to their driving style, and talks to the cloud in a common data format, with the intelligence running **on the device**, not in the cloud.
+Synapse is a working prototype built **solo** by me, Vignathi Bhairavabhotla, for the **Tata Technologies InnoVent hackathon**, competing under the team name **Flint**. It is a car that recognises its driver, adapts to their driving style, and talks to the cloud in a common data format, with the intelligence running **on the device**, not in the cloud.
 
-> Demo video: **[ADD YOUR YOUTUBE/DRIVE LINK HERE]**
-> Slides: [`docs/Flint_presentation.pdf`](docs/Flint_presentation.pdf)
+▶ **[Watch the demo video](https://drive.google.com/file/d/1pSmbda7Yeki5iDJHgqjeoaBgWAmOgLD6/view?usp=sharing)**: I recorded a full end-to-end demo showing driver recognition switching between personalised profiles, real-time driving-style prediction, the API bridge translating sensor data into a cloud format live, and V2X-based recommendation changes.
+
+📄 **Slides:** [`docs/Flint_presentation.pdf`](docs/Flint_presentation.pdf)
 
 ## The problem
 
@@ -85,7 +86,7 @@ Then open http://127.0.0.1:8000/docs and try `POST /bridge/vehicle-data` with:
 **Full pipeline** (retrain everything yourself):
 
 ```bash
-python capture_faces.py "YourName"   # enrol a driver (repeat for a second persona)
+python capture_faces.py "The_Name(Vignathi in my case)"   # enrol a driver (repeat for a second persona)
 python train_model.py                # train face recognition
 python train_style_model.py          # train driving-style model
 python compare_models.py             # compare the four algorithms
@@ -106,10 +107,6 @@ python app.py                        # run the live demo
 
 Face images and the trained face-recognition model are **not included** in this repository because they contain biometric data. Enrol your own face with `capture_faces.py` to run the recognition demo. Recognition runs entirely on the local machine.
 
-## Data
-
-Driving-behaviour training data (accelerometer and gyroscope): **[ADD DATASET NAME AND LINK HERE]**.
-
 ## Limitations and future work
 
 - Vision-only recognition is affected by glasses, hats and lighting. A production system would add a second signal such as key-fob or Bluetooth pairing.
@@ -119,5 +116,5 @@ Driving-behaviour training data (accelerometer and gyroscope): **[ADD DATASET NA
 
 ## Author
 
-Vignathi Bhairavabhotla, B.Tech AI & ML, CR Rao AIMSCS, University of Hyderabad
-[github.com/vignathi123-vi](https://github.com/vignathi123-vi) | vignathi123@gmail.com
+**Vignathi Bhairavabhotla**, B.Tech AI & ML, CR Rao AIMSCS
+
