@@ -1,0 +1,20 @@
+{
+  "Vignathi": {
+    "seat_position": "Memory Slot 1 (upright, close)",
+    "climate_temp_c": 22,
+    "music_genre": "Lo-fi / Focus",
+    "driving_mode": "Eco"
+  },
+  "Guest_Persona": {
+    "seat_position": "Memory Slot 2 (reclined, far)",
+    "climate_temp_c": 19,
+    "music_genre": "Rock",
+    "driving_mode": "Sport"
+  },
+  "Guest": {
+    "seat_position": "Default",
+    "climate_temp_c": 24,
+    "music_genre": "Radio",
+    "driving_mode": "Comfort"
+  }
+}

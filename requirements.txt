@@ -1,0 +1,11 @@
+opencv-contrib-python
+numpy
+pandas
+scikit-learn
+joblib
+skl2onnx
+onnxruntime
+fastapi
+uvicorn
+pydantic
+requests

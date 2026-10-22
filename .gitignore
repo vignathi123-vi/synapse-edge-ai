@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.mp4
+dataset/
+driver_model.yml
+DA_GATE2027_Syllabus.pdf
+innovent_responce.pdf
+tis.pdf
