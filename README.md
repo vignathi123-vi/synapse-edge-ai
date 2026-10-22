@@ -4,9 +4,9 @@
 
 Synapse is a working prototype built **solo** by me, Vignathi Bhairavabhotla, for the **Tata Technologies InnoVent hackathon**, competing under the team name **Flint**. It is a car that recognises its driver, adapts to their driving style, and talks to the cloud in a common data format, with the intelligence running **on the device**, not in the cloud.
 
-▶ **[Watch the demo video](https://drive.google.com/file/d/1pSmbda7Yeki5iDJHgqjeoaBgWAmOgLD6/view?usp=sharing)**: I recorded a full end-to-end demo showing driver recognition switching between personalised profiles, real-time driving-style prediction, the API bridge translating sensor data into a cloud format live, and V2X-based recommendation changes.
+ **[Watch the demo video](https://drive.google.com/file/d/1pSmbda7Yeki5iDJHgqjeoaBgWAmOgLD6/view?usp=sharing)**: I recorded a full end-to-end demo showing driver recognition switching between personalised profiles, real-time driving-style prediction, the API bridge translating sensor data into a cloud format live, and V2X-based recommendation changes.
 
-📄 **Slides:** [`docs/Flint_presentation.pdf`](docs/Flint_presentation.pdf)
+ **Slides:** [`docs/Flint_presentation.pdf`](docs/Flint_presentation.pdf)
 
 ## The problem
 
